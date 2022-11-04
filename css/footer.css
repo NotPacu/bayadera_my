@@ -1,0 +1,66 @@
+footer {
+    box-shadow: 0px 2px 48px 1px rgba(0, 0, 0, 0.247);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(32, 32, 32);
+    margin-top: 13vh;
+
+}
+
+.foot-cont,
+.foot-rhg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.foot-cont a{
+    font-family: 'Secular One', sans-serif;
+    text-decoration: none;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2vw;
+    color: #ff9f22;
+
+}
+
+.foot-cont div {
+    margin: 1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.foot-cont a {
+    color: #5f5f5f;
+    font-size: 0.7vw;
+    transition: 0s;
+}
+
+.foot-cont a:hover {
+    color: #c6c6c6;
+    transition: 0s;
+}
+
+.foot-cont li {
+    margin: 0.01vw;
+}
+
+footer h6 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 0.9vw;
+    color: #5f5f5f;
+    font-weight: 100;
+    margin-bottom: 0.5vw;
+}
+
+footer hr {
+    margin-bottom: 0.7vw;
+    border: #5f5f5f 1px solid;
+    background-color: rgba(255, 160, 35, 0.69);
+}

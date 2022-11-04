@@ -1,0 +1,167 @@
+
+:root{
+    --top: 4.6mm
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    border: 1px solid rgba(0, 128, 0, 0);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -box-shadow: 0 0 0px 1000px #000 inset;
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-font-family: 'Secular One', sans-serif;
+}
+
+
+.placeholder {
+    position: relative;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.placeholder h6 {
+    position: absolute;
+    
+    top: 2.4vh;
+    left: 2vh;
+    transition: 0.5s;
+    
+}
+
+input{
+    width: 96%;
+}
+
+.container{
+    background-color: #303030;
+}
+
+.container input{
+    color: rgb(45, 45, 45);
+    margin: 0;
+    width: 100%;
+}
+
+
+
+.placeholder h6{
+    color: rgb(187, 187, 187);
+}
+
+.cont_in{
+    
+    position: relative;
+    margin-top: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-top: 1vh;
+}
+.cont_in span{
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+    width: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.cont_in input{
+    color: white;
+    transition: 0.5s;
+}
+
+#email:focus+.sl5{
+    width: 100%;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+
+#email:invalid {
+    color: rgb(250, 174, 174);
+    transition: 1s;
+}
+
+#sec_key:invalid {
+    color: rgb(250, 174, 174);
+    transition: 1s;
+    
+}
+
+
+
+
+
+#sec_key:focus+.sl4{
+    width: 100%;
+    opacity: 1;
+    transition: 1s;
+}
+
+footer{
+    position: relative;
+    top: 25vh;
+}
+
+.register-link, .register-link a{
+    display: block;
+}
+
+.login-link a{
+    display: none;
+}
+
+ul{
+    grid-template-columns: 50% 50% 0% 0%;
+}
+
+
+
+
+
+#show_pass,#show_pass p ,#show_pass input{
+    background: transparent;
+    width:auto;
+    height: auto;
+    margin-left: 0.7vh;
+    color: rgb(158, 158, 158);
+}
+
+.border{
+
+    width: 40%;
+    
+}
+
+.main{
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    margin-top: 10%;
+}
+
+.fa-eye {
+    color:rgb(158, 158, 158);
+    transition: 0.7s;
+}
+.fa-eye:hover{
+    color:rgb(252, 252, 252);
+    transition: 0.7s;
+}

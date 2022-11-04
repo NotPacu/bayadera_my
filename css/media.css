@@ -1,0 +1,26 @@
+
+
+ @media (min-width: 1px) {
+
+    p{
+        font-size: 0.67vw;
+    }
+    a{
+        font-size: 0.65vw;
+    }
+ }
+
+ @media (max-width: 1500px) {
+    p{
+        font-size: 1vw;
+    }
+    a{
+        font-size: 0.9vw;
+    }
+    main label{
+        font-size: 0.9vw;
+    }
+    .info_prdc input{
+        font-size: 0.9vw;
+    }
+ }

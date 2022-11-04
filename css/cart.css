@@ -1,0 +1,46 @@
+main h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    color: rgb(255, 160, 30);;
+}
+.orders_panel{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(56, 56, 56);
+}
+.orders_panel img{
+    width: 11vw;
+    height: 7vw;
+    object-fit: fill;
+}
+.order_item,.order_item div{
+
+    margin: 0.5vw;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+main h2{
+    font-size: 1.3vw;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    color: rgb(255, 160, 30);;
+}
+.title_lf{
+    color: rgb(255, 57, 50);
+
+}
+.order_item{
+    border-top: 1px solid gray;
+}
+
+main h3{
+    font-size: 1.3vw;
+    
+    font-family: 'Secular One', sans-serif;
+    font-weight: 100;
+    color: rgb(255, 160, 30);;
+}
